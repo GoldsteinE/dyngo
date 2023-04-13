@@ -1,8 +1,12 @@
 [package]
 name = "dyngo"
 version = "0.1.0"
+description = "Type-safe dynamic (type-erased) generic outparams"
+authors = ["Maximilian Siling <root@goldstein.rs>"]
+repository = "https://github.com/GoldsteinE/dyngo"
+license = "MIT OR Apache-2.0"
+keywords = ["no_std", "no-std", "trait-objects", "generic", "erasure"]
+categories = ["no-std", "no-std::no-alloc", "rust-patterns"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
