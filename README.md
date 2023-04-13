@@ -53,7 +53,7 @@ let num = parse_provided_string::<i32>(&TwoParts("4", "2"));
 assert_eq!(num, Some(42));
 ```
 
-Note that trying to use a wrong [`Proof`] for a [`Slot`] fails in compile time: both
+Note that trying to use a wrong `Proof` for a `Slot` fails in compile time: both
 
 ```rust,compile_fail
 SafeSlot::with(|mut slot1: SafeSlot<i32>| {

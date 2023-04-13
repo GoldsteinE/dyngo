@@ -27,6 +27,7 @@
               "rust-analyzer"
             ])
             cargo-readme
+            gnused
           ];
         };
       }
